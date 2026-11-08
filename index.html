@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Htmlform</title>
+
+    <style>
+        #topic{
+             background-color: bisque;
+             font-style: italic;
+        }
+
+        #username{
+              position: relative;
+              left: 50px;
+              border-radius:10px;
+              border-color:red;
+        }
+
+        #username:hover {
+              border-color: blue;
+        }
+    </style>
 </head>
 <body>
     <fieldset>
@@ -78,6 +96,37 @@
     <textarea name id></textarea>
 </fieldset>
     
+<fieldset>
+    <legend id="topic">Login</legend>
+    <input type="text" placeholder="Username" id="username">
+    <br><br>
+    <input type="password" placeholder="Password" id="password">
+    <br><br>
+    <input type="button" value="login">
+
+</fieldset>
+
+<select name="" id="">
+    <option value = "">BMW</option>
+    <option value="">Audi</option>
+</select>
+
+
+<hr>
+<br><br>
+
+<input type="search" list="list" placeholder="search here">
+
+<datalist id="list">
+       <option value="BMW"></option>
+       <option value="Audi"></option>
+       <option value="Toyoyta"></option>
+</datalist>
+
+<script>
+    console.log("hello");
+    console.log("this the first time run the code");
+</script>
 
 </body>
 </html>
