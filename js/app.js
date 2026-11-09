@@ -15,4 +15,4 @@ console.log(  name);
 let a = "Day";
 console.log(typeof a);
 //alert
-alert("How is your day")
+alert("How is your day");
